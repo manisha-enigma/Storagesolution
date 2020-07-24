@@ -1,0 +1,36 @@
+body
+{
+    padding: 0px;
+    margin: 0%;
+}
+.navbar{
+    background: #1565C0;
+    margin: auto;
+    padding: 0%;
+}
+img
+{
+    height: 55px;
+    width: auto;
+    padding-top: 10px;
+    display: block;
+    max-height: 100%;
+    max-width: 120%;
+}
+.navbar a
+{
+    float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}  
+@media screen and (max-width: 500px) 
+{
+    .navbar a
+     {
+      float: none;
+      display: block;
+    }
+}
